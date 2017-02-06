@@ -1,9 +1,14 @@
 package com.craftcoder.cdi.injectionpoint;
 
+import javax.inject.Inject;
+
 public class Payment {
 
+	@Inject
+	private Logger logger;
+	
 	public void start() {
-		System.out.println("Starting the Payment");
+		logger.log("Starting the Payment");
 	}
 
 }

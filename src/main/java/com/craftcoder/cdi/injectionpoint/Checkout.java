@@ -11,7 +11,7 @@ public class Checkout {
 	private Logger logger;
 	
 	public void finishCheckout() {
-		logger.log(Checkout.class, "Finishing Checkout");
+		logger.log("Finishing Checkout");
 		
 		payment.start();
 	}
