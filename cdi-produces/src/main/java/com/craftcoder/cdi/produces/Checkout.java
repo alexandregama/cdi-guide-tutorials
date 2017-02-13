@@ -1,9 +1,14 @@
 package com.craftcoder.cdi.produces;
 
+import javax.inject.Inject;
+
 public class Checkout {
 
+	@Inject
+	private AwesomeLogger logger;
+
 	public void finishCheckout() {
-		System.out.println("Finishing Checkout");
+		logger.log("Finishing Checkout");
 	}
 
 }
