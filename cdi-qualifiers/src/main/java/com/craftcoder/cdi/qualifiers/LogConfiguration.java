@@ -6,9 +6,12 @@ public class LogConfiguration {
 
 	private boolean debugMode;
 
-	public LogConfiguration(boolean infoMode, boolean debugMode) {
+	private boolean warnMode;
+
+	public LogConfiguration(boolean infoMode, boolean debugMode, boolean warnMode) {
 		this.infoMode = infoMode;
 		this.debugMode = debugMode;
+		this.warnMode = warnMode;
 	}
 
 	public boolean isInInfoMode() {
@@ -19,4 +22,7 @@ public class LogConfiguration {
 		return debugMode;
 	}
 
+	public boolean isInWarnMode() {
+		return warnMode;
+	}
 }

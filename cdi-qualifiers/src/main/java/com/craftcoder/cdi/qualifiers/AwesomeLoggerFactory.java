@@ -6,7 +6,7 @@ public class AwesomeLoggerFactory {
 
 	@Produces
 	public AwesomeLogger createLogger() {
-		LogConfiguration logInDebugMode = new LogConfiguration(true, false);
+		LogConfiguration logInDebugMode = new LogConfiguration(true, false, false);
 
 		return new AwesomeLogger(logInDebugMode);
 	}
