@@ -1,6 +1,5 @@
 package com.craftcoder.cdi.qualifiers;
 
-import javax.enterprise.inject.Default;
 import javax.enterprise.inject.Produces;
 
 public class AwesomeLoggerFactory {
@@ -13,12 +12,20 @@ public class AwesomeLoggerFactory {
 		return new AwesomeLogger(logInDebugMode);
 	}
 
-	@Produces @Default
+	@Produces @InfoMode
 	public AwesomeLogger createInfoLogger() { //new method here :)
 		boolean infoMode = true;
 		LogConfiguration logInInfoMode = new LogConfiguration(infoMode, false, false);
 
 		return new AwesomeLogger(logInInfoMode);
+	}
+
+	@Produces @WarnMode
+	public AwesomeLogger createWarnLogger() { //new method here :)
+		boolean warnMode = true;
+		LogConfiguration logInWarnMode = new LogConfiguration(false, false, warnMode);
+
+		return new AwesomeLogger(logInWarnMode);
 	}
 
 }
