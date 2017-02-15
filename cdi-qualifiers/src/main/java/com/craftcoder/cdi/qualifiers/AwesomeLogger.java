@@ -13,7 +13,7 @@ public class AwesomeLogger {
 			System.out.println("DEBUG LOG: " + message);
 		}
 		else if (configuration.isInInfoMode()) {
-			System.out.println("DEBUG LOG: " + message);
+			System.out.println("INFO LOG: " + message);
 		} else {
 			System.out.println("DEFAULT LOG: " + message);
 		}

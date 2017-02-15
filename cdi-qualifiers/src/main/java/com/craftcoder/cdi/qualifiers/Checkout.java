@@ -4,7 +4,7 @@ import javax.inject.Inject;
 
 public class Checkout {
 
-	@Inject
+	@Inject @DebugMode //debug mode now
 	private AwesomeLogger logger;
 
 	public void finishCheckout() {
