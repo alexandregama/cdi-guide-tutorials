@@ -10,7 +10,7 @@ import javax.interceptor.InterceptorBinding;
 @InterceptorBinding
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.METHOD})
-public @interface Logging {
+public @interface Loggable {
 
 	String message() default "Logging";
 
