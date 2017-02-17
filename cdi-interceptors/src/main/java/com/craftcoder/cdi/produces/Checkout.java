@@ -1,10 +1,19 @@
 package com.craftcoder.cdi.produces;
 
+import javax.inject.Inject;
+
 public class Checkout {
 
-	@Logging(message = "Finishing Checkout")
+	@Inject
+	private Auditor auditor;
+
+	@Inject
+	private MyLogger logger;
+
 	public void finishCheckout() {
-		//your awesome business logic here!
+		logger.log("Finishing Checkout");
+
+		auditor.audit();
 	}
 
 }
