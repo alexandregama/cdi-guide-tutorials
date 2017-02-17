@@ -10,7 +10,7 @@ public class MainApplication {
 		try (CDI<Object> container = new Weld().initialize()) {
 			Checkout checkout = container.select(Checkout.class).get();
 
-			User user = new User("welcome@craft-coder.com", true);
+			User user = new User("welcome@craft-coder.com", false); // Now user is not OptIn :(
 
 			checkout.finishCheckout(user);
 		}
