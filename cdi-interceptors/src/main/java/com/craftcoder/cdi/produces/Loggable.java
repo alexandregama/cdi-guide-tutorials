@@ -5,6 +5,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import javax.enterprise.util.Nonbinding;
 import javax.interceptor.InterceptorBinding;
 
 @InterceptorBinding
@@ -12,6 +13,6 @@ import javax.interceptor.InterceptorBinding;
 @Target({ElementType.TYPE, ElementType.METHOD})
 public @interface Loggable {
 
-	String message() default "Logging";
+	@Nonbinding String message() default "Logging";
 
 }

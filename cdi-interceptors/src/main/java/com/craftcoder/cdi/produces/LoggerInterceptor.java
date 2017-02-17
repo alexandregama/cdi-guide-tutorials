@@ -5,7 +5,7 @@ import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
 
-@Interceptor @Loggable(message = "Finishing Checkout")
+@Interceptor @Loggable
 public class LoggerInterceptor {
 
 	@Inject
