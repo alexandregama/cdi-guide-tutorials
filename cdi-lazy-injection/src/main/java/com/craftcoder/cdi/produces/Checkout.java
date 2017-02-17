@@ -13,7 +13,9 @@ public class Checkout {
 	public void finishCheckout(User user) {
 		System.out.println("Finishing Checkout");
 
-		emailSender.sendEmailFor(user);
+		if (user.isOptIn()) { //yes, just Optin users!
+			emailSender.sendEmailFor(user);
+		}
 
 		metricCreator.createMetric();
 	}
