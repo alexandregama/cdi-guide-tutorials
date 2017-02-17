@@ -1,11 +1,12 @@
 package com.craftcoder.cdi.produces;
 
+import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 
 public class Checkout {
 
 	@Inject
-	private EmailSender emailSender;
+	private Instance<EmailSender> emailSender;
 
 	@Inject
 	private MetricCreator metricCreator;
@@ -14,7 +15,7 @@ public class Checkout {
 		System.out.println("Finishing Checkout");
 
 		if (user.isOptIn()) { //yes, just Optin users!
-			emailSender.sendEmailFor(user);
+			emailSender.get().sendEmailFor(user);
 		}
 
 		metricCreator.createMetric();
