@@ -1,6 +1,8 @@
 package com.craftcoder.cdi.alternatives;
 
-@PayPal
+import javax.enterprise.inject.Alternative;
+
+@Alternative
 public class PayPalPayment implements Payment {
 
 	@Override

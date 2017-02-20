@@ -1,6 +1,6 @@
 package com.craftcoder.cdi.alternatives;
 
-@Moip
+//Without any annotation \o/
 public class MoipPayment implements Payment {
 
 	@Override

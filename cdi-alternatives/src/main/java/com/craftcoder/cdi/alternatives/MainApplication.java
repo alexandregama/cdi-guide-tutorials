@@ -8,7 +8,7 @@ public class MainApplication {
 
 	public static void main(String[] args) {
 		try (CDI<Object> container = new Weld().initialize()) {
-			PaymentService paymentService = container.select(PaymentService.class).get();
+			PaymentServiceWithAlternatives paymentService = container.select(PaymentServiceWithAlternatives.class).get();
 
 			paymentService.startPayment();
 		}
