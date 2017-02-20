@@ -1,4 +1,4 @@
-package com.craftcoder.cdi.produces;
+package com.craftcoder.cdi.decorators;
 
 import javax.enterprise.inject.spi.CDI;
 

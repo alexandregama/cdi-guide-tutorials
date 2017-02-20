@@ -1,4 +1,4 @@
-package com.craftcoder.cdi.produces;
+package com.craftcoder.cdi.decorators;
 
 public class MoipPayment implements Payment {
 
