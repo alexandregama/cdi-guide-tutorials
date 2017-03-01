@@ -23,7 +23,7 @@ Are you interested in learn about **JUnit Framework**? Maybe you would like to s
 - [JUnit Main Page](http://craft-coder.com/junit-guides-tutorials-blog-posts-and-news/?utm_source=github&utm_medium=junit-tutorial-home&utm_term=junit-java)
 - [GitHub Main Page](https://github.com/craft-coder/junit-guides-tutorials)
 
-### Articles and Tutorials
+### Articles and Tutorials about JUnit
 
 - [JUnit - How to Configure JUnit 4 and JUnit 5](http://craft-coder.com/junit-tutorial-how-to-configuration-junit4-and-junit5/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
 - [JUnit - Mastering JUnit Assertions](http://craft-coder.com/junit-tutorial-mastering-junit-assertions-java-guide/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
@@ -39,7 +39,7 @@ Are you interested in learn about **JUnit Framework**? Maybe you would like to s
 - [Mockito Main Page](http://craft-coder.com/mockito-guides-tutorials-blog-posts-and-news/?utm_source=github&utm_medium=mockito-tutorial-home&utm_term=mockito-java)
 - [GitHub Main Page](https://github.com/craft-coder/mockito-guide-tutorials)
 
-### Articles and Tutorials
+### Articles and Tutorials about Mockito
 
 - [Mockito - Mocking objects by using mock() and verify()](http://craft-coder.com/mockito-tutorial-mocking-objects-java-guide/?utm_source=github&utm_medium=mockito-tutorial-guide&utm_term=mockito-java)
 - [Mockito - Basic usage of when() and thenReturn() methods](http://craft-coder.com/mockito-tutorial-basic-usage-of-when-and-then-return-java-guide/?utm_source=github&utm_medium=mockito-tutorial-guide&utm_term=mockito-java)
@@ -49,3 +49,11 @@ Are you interested in learn about **JUnit Framework**? Maybe you would like to s
 - [Mockito BDD - Behavior Driven Development with Mockito](http://craft-coder.com/mockito-tutorial-bdd-behavior-driven-development-with-mockito-java-guide/?utm_source=github&utm_medium=mockito-tutorial-guide&utm_term=mockito-java)
 - [Mockito - Ignoring Stubs](http://craft-coder.com/mockito-tutorial-ignoring-stubs-java-guide/?utm_source=github&utm_medium=mockito-tutorial-guide&utm_term=mockito-java)
 - [Mockito - Reseting Mock Interactions](http://craft-coder.com/mockito-tutorial-resetting-mock-interactions-java-guide/?utm_source=github&utm_medium=mockito-tutorial-guide&utm_term=mockito-java)
+
+# About the Author
+
+- [Twitter](https://twitter.com/alexandregamma)
+- [GitHub](https://github.com/alexandregama)
+- [Linkedin](https://www.linkedin.com/in/alexandregama/)
+- [Instagram](https://www.instagram.com/alexandregama/)
+- [Google+](https://plus.google.com/+AlexandreGamaLima)
