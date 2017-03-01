@@ -3,7 +3,7 @@
 
 Hey! If you are interested in how and why to use CDI Alternatives, just follow the article below from Craft Coder Site
 
-- [CDI Alternatives - Why and How to Use](http://craft-coder.com/cdi-alternatives-dependency-injection-java-tutorial/?utm_source=craft-coder&utm_medium=cdi-tutorial-guide&utm_term=cdi-java)
+- [CDI Alternatives - Why and How to Use](http://craft-coder.com/cdi-alternatives-dependency-injection-java-tutorial/?utm_source=github&utm_medium=cdi-alternatives&utm_term=cdi-java)
 
 # CDI Guides and Tutorials
 
