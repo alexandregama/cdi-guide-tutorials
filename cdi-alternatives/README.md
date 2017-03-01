@@ -1,4 +1,10 @@
 [![Stories in Ready](https://badge.waffle.io/craft-coder/cdi-guide-tutorials.png?label=ready&title=Ready)](https://waffle.io/craft-coder/cdi-guide-tutorials)
+# CDI Alternatives Tutorial
+
+Hey! If you are interested in how and why to use CDI Alternatives, just follow the article below from Craft Coder Site
+
+- [CDI Alternatives - Why and How to Use](http://craft-coder.com/cdi-alternatives-dependency-injection-java-tutorial/?utm_source=craft-coder&utm_medium=cdi-tutorial-guide&utm_term=cdi-java)
+
 # CDI Guides and Tutorials
 
 This GitHub Repository belogs to [Craft Coder Site](http://craft-coder.com/?utm_source=github&utm_medium=cdi-guide-tutorials&utm_term=cdi-java) founded by [@alexandregama](https://github.com/alexandregama), that has many **Articles**, **Guides** and **Tutorials** about many frameworks and libraries like:
