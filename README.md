@@ -15,3 +15,19 @@ If you are interested in **CDI Articles**, you can learn a lot of **CDI Features
 - [CDI How to use Interceptors](http://craft-coder.com/cdi-interceptors-dependency-injection-java-tutorial/?utm_source=github&utm_medium=cdi-tutorial-guide&utm_term=cdi-java)
 - [CDI Alternatives Tutorial](http://craft-coder.com/cdi-alternatives-dependency-injection-java-tutorial/?utm_source=github&utm_medium=cdi-tutorial-guide&utm_term=cdi-java)
 - [CDI How to use Decorators](http://craft-coder.com/cdi-decorators-dependency-injection-java-tutorial/?utm_source=github&utm_medium=cdi-tutorial-guide&utm_term=cdi-java)
+
+# JUnit Guides and Tutorials
+
+Are you interested in learn about **JUnit Framework**? Maybe you would like to see a lot of great JUnit Features in [Craft Coder Site](http://craft-coder.com/?utm_source=github&utm_medium=cdi-guide-tutorials&utm_term=cdi-java) in the following links:
+
+- [JUnit Main Page](http://craft-coder.com/junit-guides-tutorials-blog-posts-and-news/?utm_source=github&utm_medium=junit-tutorial-home&utm_term=junit-java)
+- [GitHub Main Page](https://github.com/craft-coder/junit-guides-tutorials)
+
+### Articles and Tutorials
+
+- [JUnit - How to Configure JUnit 4 and JUnit 5](http://craft-coder.com/junit-tutorial-how-to-configuration-junit4-and-junit5/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
+- [JUnit - Mastering JUnit Assertions](http://craft-coder.com/junit-tutorial-mastering-junit-assertions-java-guide/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
+- [JUnit - How to Use Hamcrest Assertions](http://craft-coder.com/junit-tutorial-hamcrest-assertions-java-guide/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
+- [JUnit - How to work with Tests in Suite](http://craft-coder.com/junit-tutorial-tests-in-suite-java-guide/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
+- [JUnit - How to Order your Execution Test](http://craft-coder.com/junit-tutorial-test-execution-order-java-guide/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
+- [JUnit - Testing with Exceptions](http://craft-coder.com/junit-tutorial-testing-exceptions-java-guide/?utm_source=github&utm_medium=junit-tutorial-guide&utm_term=junit-java)
