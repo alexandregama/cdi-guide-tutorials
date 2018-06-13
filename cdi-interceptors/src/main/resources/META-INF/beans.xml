@@ -6,8 +6,8 @@
 		version="1.1" bean-discovery-mode="all">
 
 	<interceptors>
-		<class>com.craftcoder.cdi.produces.AuditorInterceptor</class>
-		<class>com.craftcoder.cdi.produces.LoggerInterceptor</class>
+		<class>com.hackingcode.cdi.produces.AuditorInterceptor</class>
+		<class>com.hackingcode.cdi.produces.LoggerInterceptor</class>
 	</interceptors>
 
 </beans>
