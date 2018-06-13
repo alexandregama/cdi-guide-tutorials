@@ -1,4 +1,4 @@
-package com.craftcoder.cdi.produces;
+package com.hackingcode.cdi.produces;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
