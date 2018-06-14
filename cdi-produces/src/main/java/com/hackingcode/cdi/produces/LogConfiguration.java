@@ -1,4 +1,4 @@
-package com.craftcoder.cdi.produces;
+package com.hackingcode.cdi.produces;
 
 public class LogConfiguration {
 
