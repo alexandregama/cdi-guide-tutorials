@@ -5,10 +5,10 @@ import javax.enterprise.inject.Produces;
 public class AwesomeLoggerFactory {
 
 	@Produces
-	public AwesomeLogger createLogger() {
+	public SpecialLogger createLogger() {
 		LogConfiguration logInDebugMode = new LogConfiguration(true, false);
 
-		return new AwesomeLogger(logInDebugMode);
+		return new SpecialLogger(logInDebugMode);
 	}
 
 }

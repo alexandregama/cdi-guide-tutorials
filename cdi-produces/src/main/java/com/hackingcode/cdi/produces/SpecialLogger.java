@@ -1,10 +1,10 @@
 package com.hackingcode.cdi.produces;
 
-public class AwesomeLogger {
+public class SpecialLogger {
 
 	private LogConfiguration configuration;
 
-	public AwesomeLogger(LogConfiguration configuration) {
+	public SpecialLogger(LogConfiguration configuration) {
 		this.configuration = configuration;
 	}
 
